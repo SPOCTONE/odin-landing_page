@@ -53,17 +53,20 @@ header {
     font-weight: lighter;
     margin-left:150px;
 }
-.hero.button {
-    color: #E5E7EB;
+.cat,.dog,.cow {
+    border: none;
     font-size: 18px;
     font-weight: bold;
     background-color: #3882F6;
     margin-top: 0px;
-    margin-left:150px;
+    margin-right: 25px;
     padding:9px;
     padding-left: 36px;
     padding-right: 36px;
     border-radius: 10px;
+}
+.cat {
+    margin-left:150px;
 }
 .hero.kitten {
     margin-top: 50px;
