@@ -1,0 +1,81 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    background-color: #1F2937;
+}
+body{
+    margin: 0px;
+}
+
+header {
+    display:flex;
+    background-color: #1F2937;
+}
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    flex: 0.95 1 auto;
+    margin-top: 25px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    margin-left:150px;
+}
+.link {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-align: right;
+    font-weight:lighter;
+    flex: 0.05 1 auto;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.link.last {
+    margin-right: 150px
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+}
+.hero.text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left:150px;
+    
+}
+.hero.subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-left:150px;
+}
+.hero.button {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3882F6;
+    margin-top: 0px;
+    margin-left:150px;
+    padding:9px;
+    padding-left: 36px;
+    padding-right: 36px;
+    border-radius: 10px;
+}
+.hero.kitten {
+    margin-top: 50px;
+    margin-right:150px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 16px;
+    text-align: center;
+    padding: 8px;
+}
