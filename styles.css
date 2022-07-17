@@ -1,6 +1,5 @@
 *{
     font-family: 'Roboto', sans-serif;
-    background-color: #1F2937;
 }
 body{
     margin: 0px;
@@ -41,7 +40,7 @@ header {
 .hero.text {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: bold;
     margin-top: 50px;
     margin-bottom: 0px;
     margin-left:150px;
@@ -63,19 +62,61 @@ header {
     padding:9px;
     padding-left: 36px;
     padding-right: 36px;
+    border: none;
     border-radius: 10px;
 }
 .hero.kitten {
     margin-top: 50px;
     margin-right:150px;
     margin-bottom: 100px;
-    margin-left: 100px;
+    margin-left: 125px;
 }
 
+.headertext {
+    color: #1F2937;
+    background-color: white;
+    font-size: 36px;
+    text-align:center;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.kittens {
+    flex: 0 1 10%;
+    color: #1F2937;
+    font-size: 18px;
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 100px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding-top: 125px;
+    padding-bottom: 100px;
+    padding-right: 300px;
+    padding-left: 300px;
+}
+.quote .author {
+    font-size: 24px;
+    text-align: right;
+    font-style: normal;
+    font-weight: bold;
+    
+}
 footer {
     background-color: #1F2937;
     color: #E5E7EB;
     font-size: 16px;
     text-align: center;
-    padding: 8px;
+    padding: 26px;
 }
