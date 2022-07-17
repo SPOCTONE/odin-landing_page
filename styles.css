@@ -52,21 +52,18 @@ header {
     font-weight: lighter;
     margin-left:150px;
 }
-.cat,.dog,.cow {
-    border: none;
+.hero.button {
+    color: #E5E7EB;
     font-size: 18px;
     font-weight: bold;
     background-color: #3882F6;
     margin-top: 0px;
-    margin-right: 25px;
+    margin-left:150px;
     padding:9px;
     padding-left: 36px;
     padding-right: 36px;
     border: none;
     border-radius: 10px;
-}
-.cat {
-    margin-left:150px;
 }
 .hero.kitten {
     margin-top: 50px;
